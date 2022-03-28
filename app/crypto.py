@@ -1,6 +1,7 @@
 
 
-
+# "module not found" error indicates that there was a problem
+# importing or installing some code
 print("CRYPTO REPORT...")
 
 import os

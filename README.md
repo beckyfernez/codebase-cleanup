@@ -51,3 +51,5 @@ Run the inventory report:
 ```sh
 python app/groceries.py
 ```
+
+#update readme from today
