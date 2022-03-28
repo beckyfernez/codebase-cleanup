@@ -41,13 +41,30 @@ SENDGRID_API_KEY="SG...."
 ## Usage
 
 Run the game:
-
 ```sh
 python app/game.py
 ```
 
 Run the inventory report:
-
 ```sh
-python app/groceries.py
+#python app/groceries.py
+
+#modular implication (folder_name.file_name)
+python -m app.groceries
+```
+
+Run the crypto report:
+```sh
+#python app/crypto.py
+
+#modular implication
+python -m app.crypto
+```
+
+Run the stocks report:
+```sh
+#python app/stocks.py
+
+#modular implication
+python -m app.stocks
 ```
