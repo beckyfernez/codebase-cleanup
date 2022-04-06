@@ -28,7 +28,7 @@ def to_usd(my_price):
 #structure testing code under the main conditional
 
 if __name__ == "__main__":
-
+    # keeps our global scope clean when running this file  
     # nesting code in the main condition will
     # allow other scripts to cleanly import functions from this file
     # without running this code
