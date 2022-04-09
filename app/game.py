@@ -10,7 +10,8 @@ def determine_winner(user_choice, computer_choice):
     Assesses two choices, user input and computer random generation, in line with 
     the classic rock, paper, scissors game rules to determine which choice is the winner
 
-    Param: user_choice (string) and computer_choice (string) in accordance to valid_selections
+    Param1: user_choice (string)
+    Param2: computer_choice (string) in accordance to valid_selections
 
     Example: determine_winner(rock, paper)
 
