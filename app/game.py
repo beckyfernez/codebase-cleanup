@@ -5,7 +5,7 @@
 from random import choice
 
 def determine_winner(user_choice, computer_choice):
-    
+  
     """
     Assesses two choices, user input and computer random generation, in line with 
     the classic rock, paper, scissors game rules to determine which choice is the winner
@@ -16,7 +16,7 @@ def determine_winner(user_choice, computer_choice):
 
     Returns: paper 
     """
-    
+  
     #return "paper"
     winners = {
         "rock": {
@@ -38,7 +38,6 @@ def determine_winner(user_choice, computer_choice):
     winning_choice = winners[user_choice][computer_choice]
     return winning_choice
     #return "OOPS"
-
 
 if __name__ == "__main__":
 
@@ -66,6 +65,7 @@ if __name__ == "__main__":
     # DETERMINATION OF WINNER
     #
 
+
     # OLD LOGIC
     #if u == "rock" and c == "rock":
     #    print("It's a tie!")
@@ -89,6 +89,7 @@ if __name__ == "__main__":
     #    print("It's a tie!")
 
     # NEW LOGIC
+
     winner = determine_winner(u,c)
     if winner == u:
         print("YOU WON")
