@@ -12,6 +12,7 @@ requests
 # data processing:
 pandas
 
+### REVIEW the below third party installation packages ###
 # email:
 #sendgrid==6.6.0 # this version may be older than current docs
 
