@@ -1,15 +1,4 @@
 
-#imports a function cleanly with the use of a main conditional
-
-#    This is a docstring. It tells us what this function is about.
-#    What its responsibilities are
-#    What the parameters are about
-#    What datatypes the parameters are
-#    What this function will return
-#    Example of invoking the function
-#
-#    Invoke like this: to_usd(9.9999)
-
 def to_usd(my_price):
     """
     Converts a numeric value to usd-formatted string, for printing and display purposes.
@@ -22,6 +11,17 @@ def to_usd(my_price):
 
     """
     return '${:,.2f}'.format(my_price)
+
+#imports a function cleanly with the use of a main conditional
+
+#    Docstring = tells us what this function is about.
+#    What its responsibilities are
+#    What the parameters are about
+#    What datatypes the parameters are
+#    What this function will return
+#    Example of invoking the function
+#
+#    Invoke like this: to_usd(9.9999)
 
 #testing to see if the function works properly (demonstrating the concept of the function)
 #if this code is in the global scope of a file we're trying to import from
