@@ -1,16 +1,25 @@
 
 #imports a function cleanly with the use of a main conditional
 
+#    This is a docstring. It tells us what this function is about.
+#    What its responsibilities are
+#    What the parameters are about
+#    What datatypes the parameters are
+#    What this function will return
+#    Example of invoking the function
+#
+#    Invoke like this: to_usd(9.9999)
+
 def to_usd(my_price):
     """
-    This is a docstring. It tells us what this function is about.
-    What its responsibilities are
-    What the parameters are about
-    What datatypes the parameters are
-    What this function will return
-    Example of invoking the function
+    Converts a numeric value to usd-formatted string, for printing and display purposes.
 
-    Invoke like this: to_usd(9.9999)
+    Param: my_price (int or float) like 4000.444444
+
+    Example: to_usd(4000.444444)
+
+    Returns: $4,000.44
+
     """
     return '${:,.2f}'.format(my_price)
 
