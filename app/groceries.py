@@ -1,8 +1,8 @@
 
 # READ INVENTORY OF PRODUCTS
 import os
+
 #products_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "products.csv")
-#products_default = os.path.join(os.path.dirname(__file__), "..", "data", "default_products.csv")
 #products_df = read_csv(products_filepath)
 #products = products_df.to_dict("records")
 
@@ -11,6 +11,10 @@ import os
 from app.utils import to_usd
 
 # checks to see if a products.csv file exists. If not, it uses the default
+
+#I tried using the commented out variables above, but I can not define them if the file does not exist
+#Additionally, I tried creating a function with the ability to substitute the syntax and make the file name 
+#dynamic but this method kept being identified as a tuple not a string  
 if os.path.isfile(os.path.join(os.path.dirname(__file__), "..", "data", "products.csv")) == True:
     print("USING CUSTOM PRODUCTS CSV FILE...")
     csv_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "products.csv")

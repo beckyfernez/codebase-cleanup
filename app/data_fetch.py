@@ -1,6 +1,6 @@
 def data_url(symbol, api_key):
     """
-    Composes website url to direct code where to fetch data from (distinguishes from crypto and regular stocks)
+    Composes website url to direct code where to fetch data from (distinguishes between crypto and regular stocks)
 
     Param1: symbol (string) clicker symbol of a crypto stock
 
